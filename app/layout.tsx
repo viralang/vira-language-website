@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: 'Vira — Write code that speaks',
   description: 'Vira is a modern programming language born in Egypt. Explore the official language guide and tutorials.',
   generator: 'Vira Language',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export const viewport: Viewport = {

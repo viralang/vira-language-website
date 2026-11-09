@@ -37,7 +37,7 @@ export default function Page() {
     <main className="site-shell">
       <div className="top-strip"><span>VIRA / فيرا</span><span>AN OPEN SOURCE LANGUAGE FROM EGYPT</span><span>EST. 2024</span></div>
       <nav className="nav-wrap" aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="Vira home"><span className="brand-mark">V</span><span>VIRA</span></a>
+        <a className="brand" href="#top" aria-label="Vira home"><span className="brand-mark"><img src="/logo.png" alt="" width={54} height={54} /></span><span>VIRA</span></a>
         <div className={`nav-links ${menuOpen ? 'is-open' : ''}`}>
           <a href="#why" onClick={() => setMenuOpen(false)}>WHY VIRA</a>
           <a href="/docs" onClick={() => setMenuOpen(false)}>DOCS</a>
@@ -90,7 +90,7 @@ export default function Page() {
 
       <section className="community section-grid" id="community"><div className="section-kicker">04 / COME SAY HI</div><div><h2>There&apos;s room<br /><span>at the table.</span></h2><p className="big-copy">Vira is built in the open, with people who care about craft, language, and making the internet a little more interesting.</p><div className="community-links"><a href="https://github.com/viralang/vira" target="_blank" rel="noreferrer"><GitBranch size={19} /> GITHUB REPOSITORY <ArrowRight size={15} /></a><a href="https://github.com/viralang/vira/blob/main/docs/tutorials/README.md" target="_blank" rel="noreferrer"><BookOpen size={19} /> DOCUMENTATION <ArrowRight size={15} /></a></div></div></section>
 
-      <footer><div className="footer-brand"><span className="brand-mark">V</span><span>VIRA</span></div><p>لغة صغيرة، أحلام كبيرة<br /><span>A little language for big dreams.</span></p><div className="footer-meta"><span>© 2024 Vira contributors</span><span>Made in Egypt</span></div></footer>
+      <footer><div className="footer-brand"><span className="brand-mark"><img src="/logo.png" alt="" width={60} height={60} /></span><span>VIRA</span></div><p>لغة صغيرة، أحلام كبيرة<br /><span>A little language for big dreams.</span></p><div className="footer-meta"><span>© 2024 Vira contributors</span><span>Made in Egypt</span></div></footer>
     </main>
   )
 }
