@@ -56,7 +56,7 @@ export default function Page() {
           <div className="hero-actions"><a className="button button-dark" href="#install">START BUILDING <ArrowRight size={17} /></a><a className="text-link" href="https://github.com/viralang/vira" target="_blank" rel="noreferrer"><GitBranch size={17} /> VIEW ON GITHUB</a></div>
           <div className="hero-note"><span>♥</span> Made in Egypt, with patience, coffee &amp; a love of fast software.</div>
         </div>
-        <div className="hero-art" aria-label="Vira language terminal preview">
+        <div className="hero-art" aria-label="Vira language terminal and retro pixel-art preview">
           <div className="sun-stamp">EG<br /><strong>مصر</strong></div>
           <div className="terminal-card">
             <div className="terminal-top"><span className="terminal-dots"><i /><i /><i /></span><span>hello.vira</span><span className="terminal-lang">VIRA 0.4.2</span></div>
@@ -64,6 +64,13 @@ export default function Page() {
             <div className="terminal-status"><span><span className="status-dot" /> compiled in 0.08s</span><span>▶ RUN</span></div>
           </div>
           <div className="scribble">less syntax.<br />more signal.</div>
+          <img
+            className="hero-pixel-art"
+            src="/hero-pixel-art.png"
+            alt="Retro pixel-art computer mascot with coffee resting on a terracotta brick pyramid"
+            width={733}
+            height={507}
+          />
         </div>
       </section>
 
